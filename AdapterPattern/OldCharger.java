@@ -2,11 +2,7 @@ package AdapterPattern;
 
 public class OldCharger {
 
-    public void oldMethod(){
-        System.out.println("Charging with old charger");
+    public void chargingOldWay(){
+        System.out.println("Charging old way");
     }
-}
-
-interface NewCharger{
-    void newMethod();
 }
